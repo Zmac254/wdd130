@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+
+    --primary-color: #80DED9;
+    --secondary-color: #0A369D;
+    --accent1-color: #F4D6CC;
+    --accent2-color: #FF57BB;
+    --accent3-color: #DDCECD;
+
+    --heading-font: Lora, Georgia, serif;
+    --paragraph-font: "Josefin sans", Verdana, sans-serif;
+
+
+    --headline-color-on-white: #0A369D;
+    --headline-color-on-color: white;
+    --paragraph-color-on-white: black;
+    --paragraph-color-on-color: white;
+    --paragraph-background-color: #F4D6CC;
+    --nav-link-color: white;
+    --nav-background-color: #0A369D;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #F4D6CC;
+}

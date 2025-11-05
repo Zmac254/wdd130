@@ -1,0 +1,157 @@
+/* Add your CSS here to style your halloween page */
+
+.mystery-quest-regular {
+    font-family: "Mystery Quest", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    margin: 0;
+    height: 100%;
+    font-family: "Mystery Quest", system-ui;
+    background-color: rgb(63, 2, 58);
+    text-align: center;
+    background: url('images/fog.png') repeat, radial-gradient(circle at top, #1a001a, #000);
+    background-blend-mode: overlay;
+}
+
+header {
+    background: #0d0d0d;
+    border-bottom: 2px solid #ff7518;
+    box-shadow: 0 0 20px #ff7518;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 1rem;
+    margin: 0;
+}
+
+nav li {
+    color: #f5e1a4;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+nav li:hover {
+    color: #ff7518;
+    text-shadow: 0 0 10px #ff7518, 0 0 20px #ff7518;
+    transform: scale(1.1);
+}
+
+main {
+    text-align: center;
+    padding: 2rem;
+}
+
+
+ul {
+    color: white;
+}
+
+h1 {
+    font-family: "Mystery Quest", cursive;
+    font-size: 4rem;
+    color: #ff7518;
+    text-shadow: 0 0 20px #ff7518, 0 0 40px #b30000;
+    animation: flicker 2s infinite alternate;
+}
+
+@keyframes flicker {
+    0% {
+        opacity: 1;
+        text-shadow: 0 0 15px #ff7518;
+    }
+
+    50% {
+        opacity: 0.8;
+        text-shadow: 0 0 30px #b30000;
+    }
+
+    100% {
+        opacity: 1;
+        text-shadow: 0 0 25px #ff7518;
+    }
+}
+
+img {
+    /* width: 250px; */
+    border-radius: 95%;
+    margin: 1rem auto;
+    display: block;
+    box-shadow: 0 0 40px #5c0099;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+section {
+    background: rgba(255, 117, 24, 0.1);
+    border: 1px solid #ff7518;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #ff7518;
+    margin: 2rem auto;
+    max-width: 600px;
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 30px #ff7518;
+}
+
+h2 {
+    font-family: "Mystery Quest", cursive;
+    color: #ff7518;
+    text-shadow: 0 0 10px #ff7518;
+}
+
+p {
+    color: #f5e1a4;
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #0d0d0d;
+    color: #f5e1a4;
+    border-top: 2px solid #ff7518;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    box-shadow: 0 0 15px #ff7518;
+}
+
+#wrapper {
+    position: relative;
+    animation: pulse 6s infinite alternate;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 10px #5c0099;
+    }
+
+    100% {
+        box-shadow: 0 0 30px #ff7518;
+    }
+}
