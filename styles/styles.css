@@ -25,7 +25,7 @@ body {
   border-left: 5px solid var(--secondary-color);
   border-right: 5px solid var(--secondary-color);
   line-height: 1.6;
-  padding: 1rem 2rem;
+  /* padding: 1rem 2rem; */
 }
 
 header {
